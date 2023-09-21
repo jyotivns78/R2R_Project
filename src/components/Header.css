@@ -1,0 +1,42 @@
+.header {
+    padding-left: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.logo img {
+    height: 40px;
+}
+
+.header .right_menu ul li .user_image {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.notification {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.notification .notification_icon {
+    font-size: 20px;
+}
+
+.header.open {
+    height: 100vh; 
+  }
+  
+  .toggle-button {
+    display: none; 
+  }
+  
+  @media (max-width: 768px) {
+    .toggle-button {
+      display: block;
+      cursor: pointer;
+    }
+  }

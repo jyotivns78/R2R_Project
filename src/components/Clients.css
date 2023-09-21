@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.clients_section {
+    width: 80%;
+    padding: 0px 30px;
+}
+
+.breadcrumb_button {
+    width: 100%;
+}
+
+.breadcrumb_button button {
+    margin-top: -40px;
+    border-radius: 10px;
+background: #A15ECD;
+border: 1px solid #A15ECD;
+padding: 5px 10px;
+color: #FFFFFF;
+}
+
+
+.three_divs_container {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .custom_div {
+    flex: 1; 
+  height: 215px;
+  width: 33.3%;
+  max-width: 33.3%;
+  border-radius: 10px;
+border: 1px solid #E1E1E1;
+background: #FFF; 
+  margin: 10px 10px;
+  padding: 15px;
+  }
+
+.custom_divs {
+    flex: 1; 
+  height: 320px;
+  width: 25%;
+  max-width: 25%;
+  border-radius: 10px;
+border: 1px solid #E1E1E1;
+background: #FFF; 
+  margin: 10px 10px;
+  padding: 15px;
+}
+  
+  .custom_div h5 {
+    color: #3A3A3A;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .custom_div:last-child {
+    margin-right: 0; 
+  }
+
+  .count_icon h3 {
+    color: #3A3A3A;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+.div_icon {
+    font-size: 70px !important;
+    color: #77429A;
+}
+
+.custom_div p {
+    color: #B0B0B0;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.filter_clients {
+    padding: 40px 0px;
+}
+
+.filter_section {
+    padding: 10px;
+}
+
+.clients_profile {
+    padding: 20px 0px;
+}
+
+.client_profile_card img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 10px;
+}
+
+.image_and_name h5 {
+    color: #3A3A3A;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.image_and_name p {
+    width: 74px;
+height: 24px;
+flex-shrink: 0;
+border-radius: 40px;
+background: #D9FFE3;
+color: #5ECD7D;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 0 auto;
+}
+
+.contact_icon {
+    width: 30px !important;
+height: 30px !important;
+flex-shrink: 0;
+}
+
+.client_details {
+    text-align: start !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.flex_div {
+    /* padding-top: 20px; */
+}
+
+.contact_icon_name {
+    margin-top: 15px;
+    display: flex;
+    text-align: left;
+    float: left;
+}
+.contact_icon_name img {
+    margin-right: 10px;
+}
+
+.client_profile_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.viewIcon {
+    color: #0051CB;
+}
+.delete_icon {
+    color: #CB0000;
+}
+
+.pagination {
+    float: right;
+}
+
+.search_bar {
+    width: 500px;
+    border-radius: 20px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+padding: 5px 20px;
+}
+
+.search_icon {
+    margin-left: -35px;
+    margin-top: 7px;
+    font-size: 22px !important;
+}
+
+.pagination span {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button {
+    background-color: #77429A;
+    border: 1px solid #77429A;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .search_bar {
+        width: 300px !important;
+    }
+    .three_divs_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .custom_div {
+        min-width: 100% !important;
+    }
+    .clients_section {
+        min-width: 100% !important;
+    }
+    .custom_divs {
+        min-width: 100% !important;
+    }
+}

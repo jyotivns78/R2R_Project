@@ -1,0 +1,376 @@
+/* Dashboard.css */
+
+.breadcrumb {
+  margin-top: -40px;
+}
+
+.dashboard_section {
+    width: 80%;
+    padding: 0px 20px;
+    padding-bottom: 50px !important;
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .card {
+    flex: 1;
+    width: 25%; 
+    height: 125px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin: 0 5px;
+  }
+
+  .card1 {
+    border-radius: 10px;
+background: #A15ECD;
+  }
+
+ .details {
+    height: 90px;
+    border-radius: 0px 0px 10px 10px;
+border-right: 1px solid #DCDCDC;
+border-bottom: 1px solid #DCDCDC;
+border-left: 1px solid #DCDCDC;
+background: #FCFCFC;
+padding: 0px 10px;
+  }
+
+  .top_head h5 {
+    color: #F6F6F6;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+padding-top: 5px;
+  }
+
+  .details h3 {
+    color: #3A3A3A;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+  }
+
+  .details p {
+    color: #B0B0B0;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px; 
+  }
+
+  .card2 {
+    border-radius: 10px;
+background: #5ECD8A;
+  }
+
+  .card3 {
+    border-radius: 10px;
+background: #5EB2CD;
+  }
+
+  .card4 {
+    border-radius: 10px;
+background: #CD725E;
+  }
+  
+
+  /* Add this to Dashboard.css */
+
+.card-container-small {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px; 
+  }
+  
+  .card-small {
+    flex: 1;
+    width: 33.33%; 
+    height: 142px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    border-radius: 10px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+padding: 15px 10px;
+  }
+
+  .top_div h4 {
+    color: #3A3A3A;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .top_div img {
+    width: 72.118px;
+height: 60px;
+flex-shrink: 0;
+  }
+
+  .bottom_div {
+    margin-top: -20px;
+  }
+
+  .bottom_div h3 {
+    color: #3A3A3A;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .bottom_div p .earning_icon {
+    font-size: 18px;
+flex-shrink: 0;
+color: #CB0000;
+  }
+
+
+
+  .bottom_div p {
+    color: #B0B0B0;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .bottom_div p span {
+color: #CB0000;
+  }
+
+  .bottom_div p .north_span {
+    color: #5ECD8A;
+  }
+
+  .north {
+    color: #5ECD8A;
+  }
+
+  .chart-container {
+    margin-top: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+padding: 15px;
+  }
+
+  #revenueChart {
+    width: 100% !important;
+    height: 315px !important;
+  }
+  
+  .top_container_chart select {
+    padding: 0px;
+  }
+
+  .top_container_chart h3 {
+    color: #3A3A3A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  /* Dashboard.css */
+
+/* Existing styles */
+
+.candidate-approval {
+    margin-top: 20px;
+  }
+  
+  .candidate-approval h2 {
+    color: #3A3A3A;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 20px;
+padding-top: 20px;
+  }
+  
+  .candidate-profile {
+    display: flex;
+  }
+  
+  .candidate-profile-card {
+    flex: 1;
+    width: 25%;
+height: 100px;
+border-radius: 20px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+margin: 0 5px;
+padding: 15px 10px;
+  }
+  
+  .candidate-profile-card:last-child {
+    margin-right: 0; /* Remove margin for the last card */
+  }
+
+  .image_name {
+    padding-bottom: 5px;
+  }
+
+  .image_name img {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 40px;
+margin-right: 10px;
+  }
+
+  .names h4 {
+    color: #3A3A3A;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+  } 
+
+  .names span {
+    color: #B0B0B0;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+  }
+
+  .approved_status {
+    border-radius: 40px;
+background: #D4FFE0 !important;
+  }
+
+  .approved_status p {
+    color: #5ECD7D !important;
+  }
+
+  .status {
+    width: 67px;
+height: 21px;
+flex-shrink: 0;
+border-radius: 40px;
+background: #FBE9D3;
+text-align: center;
+margin-top: 3px;
+  }
+
+  .status p {
+    color: #BA704F;
+font-size: 12px;
+padding-top: 2px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  
+
+  /* Dashboard.css */
+
+/* Existing styles */
+
+.logs-inbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .logs,
+  .inbox {
+    width: 48%; /* Adjust as needed */
+  }
+
+  .logs-content {
+   height: 320px;
+   flex-shrink: 0;
+   border-radius: 10px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+  }
+  
+  .logs-header,
+  .inbox-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .logs-header h2,
+  .inbox-header h2 {
+    color: #3A3A3A;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  
+  .logs-header a,
+  .inbox-header a {
+    color: #77429A;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+padding-top: 10px;
+  }
+  
+  .inbox-content {
+   height: 320px;
+   flex-shrink: 0;
+   border-radius: 10px;
+border: 1px solid #E1E1E1;
+background: #FFF;
+  }
+
+  .image_message img {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 40px;
+margin-right: 10px;
+  }
+
+  .messages h5 {
+    color: #3A3A3A;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .messages h5 p {
+    color: #B0B0B0;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .message_profile {
+    padding: 7px 20px;
+  }
+
+  .message_profile span {
+    color: #B0B0B0;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  
+
+  @media (max-width: 768px) {
+    
+  }

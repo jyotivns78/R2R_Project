@@ -1,0 +1,244 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+  * {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+ 
+.dashboard-container {
+  padding-top: 45px;
+    display: flex;
+    flex-grow: 1;
+    transition: margin-right 0.3s ease, width 0.3s ease;
+  }
+  
+  .sidebar-left ul li {
+    list-style: none;
+padding: 12px 10px;
+flex-shrink: 0;
+border-radius: 8px;
+cursor: pointer;
+
+  }
+
+  .arrow_icon {
+    float: right;
+    font-size: 14px !important;
+    margin-top: 5px;
+  }
+
+  .list_icon {
+    font-size: 20px !important;
+    margin-right: 15px;
+  }
+
+  .sidebar-left ul li.active {
+background: linear-gradient(90deg, #77429A 2.99%, #CA79FF 95.94%);
+color: #FFFFFF;
+  }
+  
+  .sidebar-left {
+    width: 266px;
+    height: 100vh;
+    padding-right: 20px;
+    
+  }
+  
+  
+.sidebar-right {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    transition: width 0.3s ease; 
+    padding: 15px 15px;
+    border-radius: 20px 0px 0px 20px;
+    background: #F6F6F6;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0); 
+  }
+  .sidebar-right::-webkit-scrollbar {
+    width: 3px; 
+  }
+  
+  .sidebar-right::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 4px;
+  }
+  
+  .sidebar-right::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .right-sidebar-open .dashboard-container {
+    margin-right: 350px; 
+  }
+  
+  .right-sidebar-open .sidebar-right {
+    width: 350px; 
+    transition: width 0.3s ease;
+  }
+
+  
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+  
+.button_div {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-left: 266px;
+}
+
+  .add-event-button {
+    margin: 10px;
+    border-radius: 10px;
+background: #A15ECD;
+border: 1px solid #A15ECD;
+padding: 5px 10px;
+color: #FFFFFF;
+  }
+  
+  .jdiNPu {
+    width: 100% !important;
+    border: none !important;
+    background: none !important;
+  }
+
+  .kJIOyz {
+    gap: 20px !important;
+  }
+
+  .event_details {
+    width: 100%;
+    padding: 40px 0px;
+  }
+
+  .event_name img {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    /* margin-top: 4px; */
+    border-radius: 10px;
+  }
+
+  .line {
+    height: 100%;
+    border-top: 1px solid #000;
+    position: relative;
+    top: 20%;
+  }
+  .event_right {
+    width: 100%;
+  }
+.event {
+    height: 60px;
+}
+  .event_name {
+    padding: 10px;
+    position: relative;
+    top: -50%;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+border: 1px solid #77429A;
+background: #F2DEFF;
+  }
+
+  .event_name2 {
+    border-radius: 10px;
+border: 1px solid #F01F7C;
+background: #FFC8E0;
+  }
+
+  .event_name3 {
+    border-radius: 10px;
+border: 1px solid #ECAA48;
+background: #FFEACA;
+  }
+
+
+  .event_name4 {
+    border-radius: 10px;
+    border: 1px solid #77429A;
+    background: #F2DEFF;
+  }
+
+  .time {
+    padding-right: 15px;
+  }
+
+  .event_name_time p {
+    color: #77429A;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .inbox-content {
+    overflow-y: auto !important;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar-right,   .sidebar-left {
+      display: none;
+    }
+.dashboard_section {
+  min-width: 100% !important;
+}
+.candidate-profile-card {
+  height: 120px !important;
+}
+.inbox-content {
+  overflow-y: auto !important;
+}
+.card-small {
+  padding: 15px 5px !important;
+}
+.top_head h5 {
+  font-size: 14px !important;
+}
+.card {
+  min-width: 43% !important;
+  margin: 10px 10px !important;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap !important;
+  margin: 0 auto;
+}
+.dashboard_section {
+  max-width: 100% !important;
+}
+.card-container-small {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-small {
+  min-width: 100% !important;
+  margin: 10px 0px !important;
+}
+.candidate-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+.candidate-profile-card {
+  min-width: 35% !important;
+}
+.status p {
+  margin-top: 10px;
+}
+.logs-inbox {
+  display: flex;
+  flex-direction: column;
+}
+.logs, .inbox {
+  min-width: 100% !important;
+}
+  }
